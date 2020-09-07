@@ -1,0 +1,17 @@
+{
+  "name": "simple-nuxt-research",
+  "version": 2,
+  "scope": "pertadima",
+  "regions": [
+    "sin1"
+  ],
+  "builds": [
+    {
+      "src": "nuxt.config.ts",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {
+        "serverFiles": []
+      }
+    }
+  ]
+}
